@@ -1,0 +1,25 @@
+nav {
+    width: 200px;
+    background-color: #0bdbea;
+    border: 1px solid #ccc;
+  }
+
+  /* Style the links inside the navigation bar */
+  nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    color: #000;
+  }
+
+  /* Add an active class to the current link */
+  nav ul li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /* Style the links when hovering over them */
+  nav ul li a:hover:not(.active) {
+    background-color: #c3e618;
+    color: white;
+  }

@@ -1,0 +1,19 @@
+table {
+    background-color: rgb(150, 231, 233);
+    width: 100%;
+  }
+  
+  table th{
+    text-align: left;
+    background-color: #ccc;
+    border: 1px solid black ;
+    border-radius: 10px;
+    padding: 8px;
+  }
+  
+  table td {
+    border: 1px solid black;
+    border-radius: 20px;
+   
+  }
+  

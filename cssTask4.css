@@ -1,0 +1,68 @@
+/* The sidenav button */
+.sidenav-button {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* The button text */
+  .sidenav-button span {
+    display: block;
+    font-size: 16px;
+  }
+
+  /* The button icon */
+  .sidenav-button i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+
+  /* The sidenav */
+  .sidenav {
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    transition: 0.5s;
+  }
+
+  /* The sidenav content */
+  .sidenav-content {
+    padding: 20px;
+  }
+
+  /* Show the sidenav when the button is clicked */
+  .sidenav-button:hover + .sidenav {
+    width: 250px;
+  }
+
+  /* Almost 5 sidenav buttons */
+  .sidenav-button:nth-child(1) {
+    background-color: #007bff;
+  }
+
+  .sidenav-button:nth-child(2) {
+    background-color: #ff7f0e;
+  }
+
+  .sidenav-button:nth-child(3) {
+    background-color: #2ca02c;
+  }
+
+  .sidenav-button:nth-child(4) {
+    background-color: #d62728;
+  }
+
+  .sidenav-button:nth-child(5) {
+    background-color: #9467bd;
+  }
